@@ -10,7 +10,7 @@
       build:
         runs-on: ubuntu-latest
         container: python:3.9-slim
-        stepa:
+        steps:
           - name: checkout
             uses: actions/checkout@v3
 
